@@ -1,0 +1,33 @@
+/* Custom CSS styles can be added here */
+body {
+    padding-top: 70px; /* To account for the fixed navigation bar */
+  }
+  
+  .hero {
+    background-image: url('your-hero-image.jpg'); /* Add your hero image path here */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .services {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .services h3 {
+    margin-top: 20px;
+  }
+  
+  .contact {
+    padding: 50px 0;
+  }
+  
+  .footer {
+    margin-top: 30px;
+  }
+  
