@@ -1,6 +1,9 @@
 /* Custom CSS styles can be added here */
 body {
     padding-top: 70px; /* To account for the fixed navigation bar */
+    background-image: url("https://media.tenor.com/OltTSC8AuNkAAAAC/offline-gaming.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .hero {
@@ -25,6 +28,28 @@ body {
   
   .contact {
     padding: 50px 0;
+  }
+  
+  .footer {
+    margin-top: 30px;
+  }
+ 
+  /* Custom CSS styles can be added here */
+body {
+    padding-top: 70px; /* To account for the fixed navigation bar */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
   }
   
   .footer {
